@@ -27,5 +27,6 @@ place = 1
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 else
   katz_deli << name
+  binding.pry
   end
 end
