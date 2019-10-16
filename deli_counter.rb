@@ -26,7 +26,6 @@ place = 1
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 else
-  puts %w(name.split)
-  binding.pry
+  katz_deli << name
   end
 end
