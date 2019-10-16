@@ -23,9 +23,7 @@ place = 1
   place += 1
   elsif
   katz_deli.length > 1
-  katz_deli << name
+  katz_deli << name.split
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
-else
-  katz_deli.join << name.split
   end
 end
